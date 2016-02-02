@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+      fetch="git@github.com:chenbd" />
+  <default revision="dev"
+           remote="github"
+           sync-j="4" />
+
+  <project path="libs/screenrecord" name="screenrecord" />
+  <project path="AccessoryDisplay" name="AccessoryDisplay" />
+  <project path="external/libjpeg_turbo" name="libjpeg_turbo" />
+
+</manifest>
